@@ -8,4 +8,4 @@ if  (
 }
 
 /* @var $loader \Composer\Autoload\ClassLoader */
-$loader->add('DoctrineVersionableTest\\', __DIR__);
+$loader->add('UaQuetzalcoatl\\Test\\DoctrineVersionable\\', __DIR__);
