@@ -1,0 +1,29 @@
+{
+    "name": "UaQuetzalcoatl/doctrine-versionable",
+    "type": "package",
+    "description": "Package that provides Doctrine Entities versionable functionality",
+    "keywords": ["version","versionable"],
+    "homepage": "https://github.com/UaQuetzalcoatl/doctrine-versionable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Savchenko",
+            "email": "ua.quetzalcoatl@gmail.com",
+            "homepage": "http://alexsavchenko.blogspot.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "DoctrineVersionable\\": "src/",
+            "DoctrineVersionableTest\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "zendframework/zendframework1" : "dev-release-1.12",
+        "doctrine/orm" : "2.3.1",
+        "symfony/console" : "2.2.x-dev",
+        "phpunit/phpunit": "3.7.*"
+    }
+}
