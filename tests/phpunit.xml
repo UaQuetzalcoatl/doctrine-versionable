@@ -12,7 +12,7 @@
     bootstrap                   = "bootstrap.php">
     <testsuites>
 		<testsuite name="Versionable Tests">
-			<directory>DoctrineVersionableTest</directory>
+			<directory>UaQuetzalcoatl/Test/DoctrineVersionable</directory>
 		</testsuite>
 	</testsuites>
 </phpunit>
